@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/embelon/gf180-wb-hyperram
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 1E9A
+  project: HyperRAM controller
+  size: caravel-upw
+  kind: digital
+  commit: 7d060836fb
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/1E9A
+  branch: tapeout/google/gf180mcu-mpw0/1E9A
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:32:29Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/1E9A
+- upstream/main
+- upstream/submission
